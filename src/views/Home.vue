@@ -1,5 +1,4 @@
 <template>
-  <hr class="col-sm-12"/>
   <MusicVideos />
   <hr class="col-sm-12"/>
   <LivePerformance

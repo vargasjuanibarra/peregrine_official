@@ -48,7 +48,7 @@ export default {};
   text-align: center;
 }
 i {
-  font-size: 2.6rem;
+  font-size: 2rem;
   padding: 10px;
   color: white;
   transition: 0.3s;

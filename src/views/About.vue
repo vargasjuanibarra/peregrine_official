@@ -15,7 +15,7 @@
       </div>
       <img src="./julugs.jpg" class="card-img-top" alt="..." />
     </div>
-    <hr>
+    <hr />
     <div class="card">
       <img src="./performance3.jpg" class="card-img-top" alt="..." />
       <div class="card-body">
@@ -28,7 +28,7 @@
         </p>
       </div>
     </div>
-    <hr>
+    <hr />
     <div class="card">
       <div class="card-body">
         <p class="card-text">
@@ -40,12 +40,6 @@
       </div>
       <img src="./performance2.jpg" class="card-img-top" alt="..." />
     </div>
-    <hr>
-    <router-link to="/">
-    <a target="_blank" href="https://melt-records.com/"><img class="melt" src="./peregrine_logo_white.png" alt=""></a>
-    </router-link>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a target="_blank" href="https://melt-records.com/"><img class="melt" src="./melt.png" alt=""></a>
   </div>
   <hr />
 </template>

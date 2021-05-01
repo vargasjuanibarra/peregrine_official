@@ -4,7 +4,7 @@
       ><img class="col-3" src="./peregrine_logo_white.png" alt=""
     /></a> -->
     <button
-      class="navbar-toggler bg-light"
+      class="navbar-toggler bg-dark"
       type="button"
       data-toggle="collapse"
       data-placement="right"
@@ -54,19 +54,35 @@
 
         <li class="nav-item active">
           <router-link to="/"
-            ><a class="nav-link text-light" href="#"
+            ><a
+              class="nav-link text-light"
+              href="#"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
               >HOME <span class="sr-only">(current)</span></a
             ></router-link
           >
         </li>
         <li class="nav-item active">
           <router-link to="/about"
-            ><a class="nav-link text-light" href="#">ABOUT</a></router-link
+            ><a
+              class="nav-link text-light"
+              href="#"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              >ABOUT</a
+            ></router-link
           >
         </li>
         <li class="nav-item active">
           <router-link to="/store">
-            <a class="nav-link text-light" href="#">STORE</a>
+            <a
+              class="nav-link text-light"
+              href="#"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+              >STORE</a
+            >
           </router-link>
         </li>
       </ul>
@@ -75,15 +91,14 @@
 </template>
 
 <script>
-export default {
-};
+export default {};
 </script>
 
 <style scoped>
 .navbar {
   width: 100%;
   margin: 0 auto;
-  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .nav-link {
   font-size: 1.2rem;

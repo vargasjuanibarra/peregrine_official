@@ -49,7 +49,7 @@ export default {};
 }
 i {
   font-size: 2.6rem;
-  padding: 15px;
+  padding: 10px;
   color: white;
   transition: 0.3s;
   padding-top: 10px;
@@ -68,6 +68,6 @@ h4 {
   color: white;
 }
 img {
-  width: 10%;
+  width: 20%;
 }
 </style>

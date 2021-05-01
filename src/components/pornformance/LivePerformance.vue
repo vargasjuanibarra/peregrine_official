@@ -1,7 +1,6 @@
 <template>
-  <div class="live-performances">
-    <div class="col-sm-6 col-md-4">
-      <div class="card" style="width: 20rem">
+  <div class="col">
+      <div class="card" style="width: 100%">
         <iframe
           :src="performance.link"
           title="YouTube video player"
@@ -16,7 +15,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -26,10 +24,7 @@ export default {
 </script>
 
 <style scoped>
-.live-performances {
-  padding: 10px;
-  margin: 0 auto;
-}
+
 .card {
   transition: 0.3s;
   background-color: rgba(255, 255, 255, 0.336);

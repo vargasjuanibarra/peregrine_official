@@ -37,9 +37,6 @@ hr {
 #app {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.container {
-  background: none;
-}
 body {
   background: url("./luhluh7.jpg")
   fixed 100%;

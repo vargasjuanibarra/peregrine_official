@@ -1,13 +1,13 @@
 <template>
-  <hr class="col-12"/>
+  <hr class="col-sm-12"/>
   <MusicVideos />
-  <hr class="col-12" />
+  <hr class="col-sm-12"/>
   <LivePerformance
     v-for="performance in performances"
     :key="performance.id"
     :performance="performance"
   />
-  <hr class="col-12" />
+  <hr class="col-sm-12"/>
   <Banner v-for="banner in banners" :key="banner.id" :banner="banner" />
 </template>
 

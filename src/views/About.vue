@@ -13,11 +13,11 @@
           band’s roster.
         </p>
       </div>
-      <img src="./julugs.jpg" class="card-img-top" alt="..." />
+      <img src="./images/julugs.jpg" class="card-img-top" alt="..." />
     </div>
     <hr />
     <div class="card">
-      <img src="./performance3.jpg" class="card-img-top" alt="..." />
+      <img src="./images/performance3.jpg" class="card-img-top" alt="..." />
       <div class="card-body">
         <p class="card-text">
           Peregrine is heavily influenced by bands like Hippo Campus, Arctic
@@ -38,7 +38,7 @@
           piece..
         </p>
       </div>
-      <img src="./performance2.jpg" class="card-img-top" alt="..." />
+      <img src="./images/performance2.jpg" class="card-img-top" alt="..." />
     </div>
   </div>
   <hr />

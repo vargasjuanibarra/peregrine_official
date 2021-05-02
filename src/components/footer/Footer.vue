@@ -61,7 +61,7 @@ i:hover {
 }
 .text p {
   padding-top: 20px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
 }
 h4 {

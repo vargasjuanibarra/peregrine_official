@@ -46,12 +46,6 @@
         ></a>
       </div>
       <ul class="navbar-nav ml-auto">
-        <!-- <div
-          class="block"
-          :class="{ animate: animatedBlock, block }"
-          @click="animateBlock"
-        ></div> -->
-
         <li class="nav-item active">
           <router-link to="/"
             ><a
@@ -101,7 +95,7 @@ export default {};
   background-color: rgba(0, 0, 0, 0.5);
 }
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-right: 30px;
 }
 a {
@@ -110,13 +104,11 @@ a {
 a:hover {
   transition: 0.3s;
 }
-
 nav {
   background-color: none;
 }
-
 i {
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding: 15px;
   color: white;
   transition: 0.3s;
@@ -124,14 +116,5 @@ i {
 i:hover {
   opacity: 0.5;
   transition: 0.3s;
-}
-.block {
-  width: 1.6rem;
-  height: 1.6rem;
-  margin-bottom: 2rem;
-  border-radius: 100px;
-}
-.animate {
-  transform: translateX(-50px);
 }
 </style>
